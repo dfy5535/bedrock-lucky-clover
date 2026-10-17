@@ -1,0 +1,6 @@
+item.lucky:four_leaf_clover.name=§aLucky Four-Leaf Clover
+item.lucky:four_leaf_clover=§aLucky Four-Leaf Clover
+item.lucky:golden_clover.name=§6§lGolden Four-Leaf Clover
+item.lucky:golden_clover=§6§lGolden Four-Leaf Clover
+action.interact.lucky_clover=Make a Wish
+action.interact.lucky_golden_clover=Golden Wish

@@ -1,0 +1,6 @@
+item.lucky:four_leaf_clover.name=§a幸运四叶草
+item.lucky:four_leaf_clover=§a幸运四叶草
+item.lucky:golden_clover.name=§6§l金叶四叶草
+item.lucky:golden_clover=§6§l金叶四叶草
+action.interact.lucky_clover=摘叶祈愿
+action.interact.lucky_golden_clover=金叶祈愿

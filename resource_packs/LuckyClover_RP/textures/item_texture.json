@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "lucky_clover_rp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "lucky_four_leaf_clover": {
+      "textures": "textures/items/four_leaf_clover"
+    },
+    "lucky_golden_clover": {
+      "textures": "textures/items/golden_clover"
+    }
+  }
+}

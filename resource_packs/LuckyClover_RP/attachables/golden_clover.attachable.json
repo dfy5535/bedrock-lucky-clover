@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "lucky:golden_clover",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/items/golden_clover_model"
+      },
+      "geometry": {
+        "default": "geometry.lucky_four_leaf_clover"
+      },
+      "animations": {
+        "idle": "animation.lucky_clover.idle"
+      },
+      "scripts": {
+        "animate": [ "idle" ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}
