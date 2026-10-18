@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:clover_sprite",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/clover_sprite"
+      },
+      "geometry": {
+        "default": "geometry.lucky_clover_sprite"
+      },
+      "animations": {
+        "idle": "animation.clover_sprite.float",
+        "cast": "animation.clover_sprite.cast",
+        "ctrl": "controller.animation.clover_sprite.main"
+      },
+      "scripts": {
+        "animate": [
+          "ctrl"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#38A848",
+        "overlay_color": "#8CF59A"
+      }
+    }
+  }
+}

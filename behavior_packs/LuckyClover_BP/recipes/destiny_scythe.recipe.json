@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:destiny_scythe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DD ",
+      " ES",
+      "  S"
+    ],
+    "key": {
+      "D": "lucky:destiny_shard",
+      "E": "lucky:nature_essence",
+      "S": "minecraft:stick"
+    },
+    "result": {
+      "item": "lucky:destiny_scythe",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:destiny_shard"
+      }
+    ]
+  }
+}

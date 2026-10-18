@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:lucky_pollen_bottle"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " P ",
+      "MDM",
+      " B "
+    ],
+    "key": {
+      "P": "lucky:lucky_pollen",
+      "M": "lucky:clover_leaf",
+      "D": "lucky:morning_dew",
+      "B": "minecraft:glass_bottle"
+    },
+    "result": {
+      "item": "lucky:lucky_pollen_bottle",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:lucky_pollen"
+      }
+    ]
+  }
+}

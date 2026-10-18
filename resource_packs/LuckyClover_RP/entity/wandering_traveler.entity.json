@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:wandering_traveler",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/wandering_traveler"
+      },
+      "geometry": {
+        "default": "geometry.lucky_wandering_traveler"
+      },
+      "animations": {
+        "idle": "animation.wandering_traveler.idle",
+        "walk": "animation.wandering_traveler.walk",
+        "offer_gift": "animation.wandering_traveler.offer_gift",
+        "ctrl": "controller.animation.wandering_traveler.main"
+      },
+      "scripts": {
+        "animate": [
+          "ctrl"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#2E7D32",
+        "overlay_color": "#E6B830"
+      }
+    }
+  }
+}

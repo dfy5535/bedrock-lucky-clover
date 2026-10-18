@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:four_leaf_wish_bow"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " LS",
+      "E S",
+      " LS"
+    ],
+    "key": {
+      "L": "lucky:clover_leaf",
+      "E": "lucky:nature_essence",
+      "S": "minecraft:string"
+    },
+    "result": {
+      "item": "lucky:four_leaf_wish_bow",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:nature_essence"
+      }
+    ]
+  }
+}

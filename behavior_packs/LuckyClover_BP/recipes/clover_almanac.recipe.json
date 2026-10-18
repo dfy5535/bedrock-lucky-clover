@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:clover_almanac"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " L ",
+      "LBL",
+      " C "
+    ],
+    "key": {
+      "L": "lucky:clover_leaf",
+      "B": "minecraft:book",
+      "C": "lucky:four_leaf_clover"
+    },
+    "result": {
+      "item": "lucky:clover_almanac",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:four_leaf_clover"
+      }
+    ]
+  }
+}

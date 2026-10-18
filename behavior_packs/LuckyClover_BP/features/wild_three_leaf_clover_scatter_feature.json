@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "lucky:wild_three_leaf_clover_scatter_feature"
+    },
+    "iterations": 4,
+    "scatter_chance": 45,
+    "x": {
+      "distribution": "uniform",
+      "extent": [
+        0,
+        15
+      ]
+    },
+    "z": {
+      "distribution": "uniform",
+      "extent": [
+        0,
+        15
+      ]
+    },
+    "y": 0,
+    "places_feature": "lucky:wild_three_leaf_clover_single_feature"
+  }
+}

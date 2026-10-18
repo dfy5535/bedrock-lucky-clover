@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "lucky:clover_shrine",
+      "menu_category": {
+        "category": "construction",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "lucky_clover_shrine_side",
+          "render_method": "alpha_test",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        }
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 12,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 12.0
+      },
+      "minecraft:loot": "loot_tables/blocks/clover_shrine.json",
+      "minecraft:map_color": "#FFD700",
+      "minecraft:custom_components": [
+        "lucky:shrine_interact"
+      ],
+      "minecraft:geometry": "geometry.lucky_clover_shrine"
+    }
+  }
+}

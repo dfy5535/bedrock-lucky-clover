@@ -1,0 +1,46 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:destiny_helmet",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "lucky_destiny_helmet"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.lucky:destiny_helmet.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": true,
+      "minecraft:enchantable": {
+        "slot": "armor_head",
+        "value": 18
+      },
+      "minecraft:durability": {
+        "max_durability": 352
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 3
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "lucky:destiny_shard",
+              "lucky:nature_essence"
+            ],
+            "repair_amount": 80
+          }
+        ]
+      }
+    }
+  }
+}

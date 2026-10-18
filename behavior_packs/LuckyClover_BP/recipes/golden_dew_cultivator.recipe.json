@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:golden_dew_cultivator"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " P ",
+      "GDM",
+      " B "
+    ],
+    "key": {
+      "P": "lucky:lucky_pollen",
+      "G": "lucky:golden_dew",
+      "D": "minecraft:bone_meal",
+      "M": "lucky:morning_dew",
+      "B": "minecraft:glass_bottle"
+    },
+    "result": {
+      "item": "lucky:golden_dew_cultivator",
+      "count": 2
+    },
+    "unlock": [
+      {
+        "item": "lucky:golden_dew"
+      }
+    ]
+  }
+}

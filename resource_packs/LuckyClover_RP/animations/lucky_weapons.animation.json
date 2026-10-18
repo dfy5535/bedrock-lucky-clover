@@ -1,0 +1,182 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.lucky_weapon.first_person_hold": {
+      "loop": true,
+      "bones": {
+        "root_item": {
+          "rotation": [
+            18,
+            -25,
+            -12
+          ],
+          "position": [
+            2.5,
+            1.5,
+            -2.5
+          ],
+          "scale": 0.85
+        }
+      }
+    },
+    "animation.lucky_weapon.third_person_hold": {
+      "loop": true,
+      "bones": {
+        "root_item": {
+          "rotation": [
+            85,
+            0,
+            0
+          ],
+          "position": [
+            0,
+            1,
+            -2
+          ],
+          "scale": 0.85
+        }
+      }
+    },
+    "animation.lucky_weapon.bow_charge": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 0.8,
+      "bones": {
+        "upper_limb": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.8": [
+              -14,
+              0,
+              0
+            ]
+          }
+        },
+        "lower_limb": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.8": [
+              14,
+              0,
+              0
+            ]
+          }
+        },
+        "bowstring": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              2.8
+            ]
+          }
+        }
+      }
+    },
+    "animation.lucky_weapon.idle_scythe": {
+      "loop": true,
+      "animation_length": 2.4,
+      "bones": {
+        "floating_shard": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.2": [
+              0,
+              180,
+              15
+            ],
+            "2.4": [
+              0,
+              360,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.lucky_weapon.idle_dagger": {
+      "loop": true,
+      "animation_length": 2.4,
+      "bones": {
+        "energy_core": {
+          "scale": {
+            "0.0": [
+              1,
+              1,
+              1
+            ],
+            "1.2": [
+              1.18,
+              1.18,
+              1.18
+            ],
+            "2.4": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "animation.lucky_weapon.idle_pickaxe": {
+      "loop": true,
+      "animation_length": 2.4,
+      "bones": {
+        "echo_pendulum": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -12
+            ],
+            "1.2": [
+              0,
+              0,
+              12
+            ],
+            "2.4": [
+              0,
+              0,
+              -12
+            ]
+          }
+        }
+      }
+    },
+    "animation.lucky_weapon.idle_bow": {
+      "loop": true,
+      "animation_length": 2.4,
+      "bones": {
+        "clover_emblem": {
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            "1 + 0.03 * math.sin(q.anim_time * 180)",
+            "1 + 0.03 * math.sin(q.anim_time * 180)",
+            "1 + 0.03 * math.sin(q.anim_time * 180)"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "lucky:moonlight_clover",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.flower",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.lucky_plant_moonlight",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "lucky_moonlight_clover",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          10,
+          12
+        ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 10,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:map_color": "#38A848",
+      "minecraft:custom_components": [
+        "lucky:plant_behavior"
+      ],
+      "minecraft:loot": "loot_tables/blocks/moonlight_clover.json"
+    }
+  }
+}

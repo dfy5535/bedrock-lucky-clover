@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:green_leaf_amulet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " S ",
+      "LEL",
+      " G "
+    ],
+    "key": {
+      "S": "minecraft:string",
+      "L": "lucky:clover_leaf",
+      "E": "lucky:nature_essence",
+      "G": "minecraft:gold_ingot"
+    },
+    "result": {
+      "item": "lucky:green_leaf_amulet",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:nature_essence"
+      }
+    ]
+  }
+}

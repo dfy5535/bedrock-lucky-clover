@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:lucky_pollen_bottle",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "lucky_lucky_pollen_bottle"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.lucky:lucky_pollen_bottle.name"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:glint": false,
+      "minecraft:allow_off_hand": true,
+      "minecraft:use_modifiers": {
+        "use_duration": 0.8,
+        "movement_modifier": 0.8
+      },
+      "minecraft:use_animation": "drink",
+      "minecraft:cooldown": {
+        "category": "lucky_lucky_pollen_bottle",
+        "duration": 2.0
+      },
+      "minecraft:interact_button": "action.interact.lucky_pollen_bottle",
+      "minecraft:custom_components": [
+        "lucky:pollen_bottle_use"
+      ]
+    }
+  }
+}

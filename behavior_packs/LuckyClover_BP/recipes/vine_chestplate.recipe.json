@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:vine_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L L",
+      "LEL",
+      "LLL"
+    ],
+    "key": {
+      "L": "lucky:clover_leaf",
+      "E": "lucky:nature_essence"
+    },
+    "result": {
+      "item": "lucky:vine_chestplate",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:clover_leaf"
+      }
+    ]
+  }
+}

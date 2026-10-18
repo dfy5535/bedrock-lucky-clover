@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:clover_shrine"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "GCG",
+      "MEM",
+      "MMM"
+    ],
+    "key": {
+      "G": "minecraft:gold_ingot",
+      "C": "lucky:four_leaf_clover",
+      "M": "minecraft:mossy_cobblestone",
+      "E": "lucky:nature_essence"
+    },
+    "result": {
+      "item": "lucky:clover_shrine",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:nature_essence"
+      }
+    ]
+  }
+}

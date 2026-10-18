@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:vine_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "LLL",
+      "LEL"
+    ],
+    "key": {
+      "L": "lucky:clover_leaf",
+      "E": "lucky:lucky_pollen"
+    },
+    "result": {
+      "item": "lucky:vine_helmet",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:clover_leaf"
+      }
+    ]
+  }
+}

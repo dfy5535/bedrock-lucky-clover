@@ -1,13 +1,13 @@
 {
   "format_version": 2,
   "header": {
-    "name": "幸运四叶草 Resource Pack (v1.1.0 · 兼容 1.21.10+)",
-    "description": "幸运四叶草贴图、3D 模型、动画与多语言文本资源包（向下兼容版：最低 1.21.10）\n【1.21.60 兼容版】最低支持 1.21.60（@minecraft/server 1.17.0）；已去除 2.x 专属 API 依赖，向上兼容 1.21.60+。",
-    "uuid": "f808f2c6-d17c-4bf7-8f7d-bf4b89ce0ee5",
+    "name": "幸运四叶草：自然与命运 RP (v2.1.19 · 1.21.60+)",
+    "description": "幸运四叶草 v2.1.19 资源包：35 个基岩版 1.12.0 多骨骼几何模型、64×64 贴图、动画与控制器、粒子与多语言文本。",
+    "uuid": "f38113e2-f768-4680-919b-6c2389c9dda6",
     "version": [
+      2,
       1,
-      1,
-      2
+      19
     ],
     "min_engine_version": [
       1,
@@ -19,11 +19,11 @@
     {
       "description": "Resource Pack Module",
       "type": "resources",
-      "uuid": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8091",
+      "uuid": "e4c494f8-7609-4197-bf5a-32259cb80413",
       "version": [
+        2,
         1,
-        1,
-        2
+        19
       ]
     }
   ]

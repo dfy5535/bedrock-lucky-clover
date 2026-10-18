@@ -1,0 +1,83 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.clover_sprite.main": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "animation.clover_sprite.float"
+          ]
+        }
+      }
+    },
+    "controller.animation.wandering_traveler.main": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": [
+            "animation.wandering_traveler.idle"
+          ],
+          "transitions": [
+            {
+              "walk": "q.ground_speed > 0.05"
+            }
+          ]
+        },
+        "walk": {
+          "animations": [
+            "animation.wandering_traveler.walk"
+          ],
+          "transitions": [
+            {
+              "idle": "q.ground_speed <= 0.05"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.clover_guardian.main": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": [
+            "animation.clover_guardian.idle"
+          ],
+          "transitions": [
+            {
+              "attack": "variable.attack_time > 0.0"
+            },
+            {
+              "walk": "q.ground_speed > 0.05"
+            }
+          ]
+        },
+        "walk": {
+          "animations": [
+            "animation.clover_guardian.idle",
+            "animation.clover_guardian.walk"
+          ],
+          "transitions": [
+            {
+              "attack": "variable.attack_time > 0.0"
+            },
+            {
+              "idle": "q.ground_speed <= 0.05"
+            }
+          ]
+        },
+        "attack": {
+          "animations": [
+            "animation.clover_guardian.idle",
+            "animation.clover_guardian.attack_slam"
+          ],
+          "transitions": [
+            {
+              "idle": "variable.attack_time <= 0.0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

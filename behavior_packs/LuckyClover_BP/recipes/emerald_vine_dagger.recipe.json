@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:emerald_vine_dagger"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " E ",
+      " L ",
+      " S "
+    ],
+    "key": {
+      "E": "lucky:nature_essence",
+      "L": "lucky:clover_leaf",
+      "S": "minecraft:stick"
+    },
+    "result": {
+      "item": "lucky:emerald_vine_dagger",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:nature_essence"
+      }
+    ]
+  }
+}

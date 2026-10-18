@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:clover_guardian",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/clover_guardian"
+      },
+      "geometry": {
+        "default": "geometry.lucky_clover_guardian"
+      },
+      "animations": {
+        "idle": "animation.clover_guardian.idle",
+        "walk": "animation.clover_guardian.walk",
+        "attack_slam": "animation.clover_guardian.attack_slam",
+        "shield_expand": "animation.clover_guardian.shield_expand",
+        "wind_storm": "animation.clover_guardian.wind_storm",
+        "golden_awaken": "animation.clover_guardian.golden_awaken",
+        "weakness_exposed": "animation.clover_guardian.weakness_exposed",
+        "ctrl": "controller.animation.clover_guardian.main"
+      },
+      "scripts": {
+        "animate": [
+          "ctrl"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#1B5E20",
+        "overlay_color": "#FFD700"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:vine_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "E E",
+      "L L"
+    ],
+    "key": {
+      "L": "lucky:clover_leaf",
+      "E": "lucky:lucky_pollen"
+    },
+    "result": {
+      "item": "lucky:vine_boots",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:clover_leaf"
+      }
+    ]
+  }
+}

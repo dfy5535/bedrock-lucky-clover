@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "lucky:four_leaf_wish_bow",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/weapons/four_leaf_wish_bow",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.lucky_four_leaf_wish_bow"
+      },
+      "animations": {
+        "first_person": "animation.lucky_weapon.first_person_hold",
+        "third_person": "animation.lucky_weapon.third_person_hold",
+        "idle_pulse": "animation.lucky_weapon.idle_bow",
+        "bow_charge": "animation.lucky_weapon.bow_charge"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "first_person": "c.is_first_person"
+          },
+          {
+            "third_person": "!c.is_first_person"
+          },
+          "idle_pulse",
+          {
+            "bow_charge": "q.is_using_item"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}

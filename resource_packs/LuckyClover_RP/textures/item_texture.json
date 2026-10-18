@@ -3,10 +3,189 @@
   "texture_name": "atlas.items",
   "texture_data": {
     "lucky_four_leaf_clover": {
-      "textures": "textures/items/four_leaf_clover"
+      "textures": [
+        "textures/items/four_leaf_clover"
+      ]
     },
     "lucky_golden_clover": {
-      "textures": "textures/items/golden_clover"
+      "textures": [
+        "textures/items/golden_clover"
+      ]
+    },
+    "lucky_three_leaf_clover": {
+      "textures": [
+        "textures/items/three_leaf_clover"
+      ]
+    },
+    "lucky_gold_vein_clover": {
+      "textures": [
+        "textures/items/gold_vein_clover"
+      ]
+    },
+    "lucky_morning_dew_clover": {
+      "textures": [
+        "textures/items/morning_dew_clover"
+      ]
+    },
+    "lucky_moonlight_clover": {
+      "textures": [
+        "textures/items/moonlight_clover"
+      ]
+    },
+    "lucky_ember_clover": {
+      "textures": [
+        "textures/items/ember_clover"
+      ]
+    },
+    "lucky_starlight_clover": {
+      "textures": [
+        "textures/items/starlight_clover"
+      ]
+    },
+    "lucky_clover_leaf": {
+      "textures": [
+        "textures/items/clover_leaf"
+      ]
+    },
+    "lucky_lucky_pollen": {
+      "textures": [
+        "textures/items/lucky_pollen"
+      ]
+    },
+    "lucky_morning_dew": {
+      "textures": [
+        "textures/items/morning_dew"
+      ]
+    },
+    "lucky_golden_dew": {
+      "textures": [
+        "textures/items/golden_dew"
+      ]
+    },
+    "lucky_nature_essence": {
+      "textures": [
+        "textures/items/nature_essence"
+      ]
+    },
+    "lucky_destiny_shard": {
+      "textures": [
+        "textures/items/destiny_shard"
+      ]
+    },
+    "lucky_guardian_emblem": {
+      "textures": [
+        "textures/items/guardian_emblem"
+      ]
+    },
+    "lucky_clover_seed_packet": {
+      "textures": [
+        "textures/items/clover_seed_packet"
+      ]
+    },
+    "lucky_lucky_pollen_bottle": {
+      "textures": [
+        "textures/items/lucky_pollen_bottle"
+      ]
+    },
+    "lucky_golden_dew_cultivator": {
+      "textures": [
+        "textures/items/golden_dew_cultivator"
+      ]
+    },
+    "lucky_green_leaf_amulet": {
+      "textures": [
+        "textures/items/green_leaf_amulet"
+      ]
+    },
+    "lucky_destiny_wish_bottle": {
+      "textures": [
+        "textures/items/destiny_wish_bottle"
+      ]
+    },
+    "lucky_clover_almanac": {
+      "textures": [
+        "textures/items/clover_almanac"
+      ]
+    },
+    "lucky_vine_helmet": {
+      "textures": [
+        "textures/items/vine_helmet"
+      ]
+    },
+    "lucky_vine_chestplate": {
+      "textures": [
+        "textures/items/vine_chestplate"
+      ]
+    },
+    "lucky_vine_leggings": {
+      "textures": [
+        "textures/items/vine_leggings"
+      ]
+    },
+    "lucky_vine_boots": {
+      "textures": [
+        "textures/items/vine_boots"
+      ]
+    },
+    "lucky_golden_leaf_helmet": {
+      "textures": [
+        "textures/items/golden_leaf_helmet"
+      ]
+    },
+    "lucky_golden_leaf_chestplate": {
+      "textures": [
+        "textures/items/golden_leaf_chestplate"
+      ]
+    },
+    "lucky_golden_leaf_leggings": {
+      "textures": [
+        "textures/items/golden_leaf_leggings"
+      ]
+    },
+    "lucky_golden_leaf_boots": {
+      "textures": [
+        "textures/items/golden_leaf_boots"
+      ]
+    },
+    "lucky_destiny_helmet": {
+      "textures": [
+        "textures/items/destiny_helmet"
+      ]
+    },
+    "lucky_destiny_chestplate": {
+      "textures": [
+        "textures/items/destiny_chestplate"
+      ]
+    },
+    "lucky_destiny_leggings": {
+      "textures": [
+        "textures/items/destiny_leggings"
+      ]
+    },
+    "lucky_destiny_boots": {
+      "textures": [
+        "textures/items/destiny_boots"
+      ]
+    },
+    "lucky_emerald_vine_dagger": {
+      "textures": [
+        "textures/items/emerald_vine_dagger"
+      ]
+    },
+    "lucky_destiny_scythe": {
+      "textures": [
+        "textures/items/destiny_scythe"
+      ]
+    },
+    "lucky_four_leaf_wish_bow": {
+      "textures": [
+        "textures/items/four_leaf_wish_bow"
+      ]
+    },
+    "lucky_lucky_pickaxe": {
+      "textures": [
+        "textures/items/lucky_pickaxe"
+      ]
     }
   }
 }

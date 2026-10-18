@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:clover_seed_packet",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "lucky_clover_seed_packet"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.lucky:clover_seed_packet.name"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:glint": false,
+      "minecraft:allow_off_hand": true,
+      "minecraft:use_modifiers": {
+        "use_duration": 0.3,
+        "movement_modifier": 0.8
+      },
+      "minecraft:use_animation": "bow",
+      "minecraft:cooldown": {
+        "category": "lucky_clover_seed_packet",
+        "duration": 0.2
+      },
+      "minecraft:interact_button": "action.interact.lucky_seed_packet",
+      "minecraft:custom_components": [
+        "lucky:seed_packet_use"
+      ]
+    }
+  }
+}

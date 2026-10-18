@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:destiny_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "D D",
+      "EDE",
+      "DDD"
+    ],
+    "key": {
+      "D": "lucky:destiny_shard",
+      "E": "lucky:nature_essence"
+    },
+    "result": {
+      "item": "lucky:destiny_chestplate",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:destiny_shard"
+      }
+    ]
+  }
+}

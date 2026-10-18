@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:destiny_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "E E",
+      "D D"
+    ],
+    "key": {
+      "D": "lucky:destiny_shard",
+      "E": "lucky:nature_essence"
+    },
+    "result": {
+      "item": "lucky:destiny_boots",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:destiny_shard"
+      }
+    ]
+  }
+}

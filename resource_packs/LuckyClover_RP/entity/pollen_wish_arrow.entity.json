@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:pollen_wish_arrow",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/weapons/four_leaf_wish_bow"
+      },
+      "geometry": {
+        "default": "geometry.lucky_pollen_wish_arrow"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

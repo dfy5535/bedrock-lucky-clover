@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:golden_leaf_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "GGG",
+      "E E",
+      "C C"
+    ],
+    "key": {
+      "G": "lucky:golden_dew",
+      "C": "lucky:golden_clover",
+      "E": "lucky:nature_essence"
+    },
+    "result": {
+      "item": "lucky:golden_leaf_leggings",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:golden_dew"
+      }
+    ]
+  }
+}

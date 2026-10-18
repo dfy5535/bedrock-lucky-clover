@@ -1,0 +1,78 @@
+{
+  "resource_pack_name": "lucky_clover_rp",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "lucky_wild_three_leaf_clover": {
+      "textures": [
+        "textures/blocks/wild_three_leaf_clover"
+      ]
+    },
+    "lucky_wild_lucky_clover": {
+      "textures": [
+        "textures/blocks/wild_lucky_clover"
+      ]
+    },
+    "lucky_gold_vein_clover": {
+      "textures": [
+        "textures/blocks/gold_vein_clover"
+      ]
+    },
+    "lucky_morning_dew_clover": {
+      "textures": [
+        "textures/blocks/morning_dew_clover"
+      ]
+    },
+    "lucky_moonlight_clover": {
+      "textures": [
+        "textures/blocks/moonlight_clover"
+      ]
+    },
+    "lucky_ember_clover": {
+      "textures": [
+        "textures/blocks/ember_clover"
+      ]
+    },
+    "lucky_starlight_clover": {
+      "textures": [
+        "textures/blocks/starlight_clover"
+      ]
+    },
+    "lucky_dormant_clover_plant": {
+      "textures": [
+        "textures/blocks/dormant_clover_plant"
+      ]
+    },
+    "lucky_clover_crop_stage_1": {
+      "textures": [
+        "textures/blocks/clover_crop_stage_1"
+      ]
+    },
+    "lucky_clover_crop_stage_2": {
+      "textures": [
+        "textures/blocks/clover_crop_stage_2"
+      ]
+    },
+    "lucky_clover_crop_stage_3": {
+      "textures": [
+        "textures/blocks/clover_crop_stage_3"
+      ]
+    },
+    "lucky_clover_crop_stage_4": {
+      "textures": [
+        "textures/blocks/clover_crop_stage_4"
+      ]
+    },
+    "lucky_clover_shrine_side": {
+      "textures": [
+        "textures/blocks/clover_shrine_side"
+      ]
+    },
+    "lucky_clover_shrine_top": {
+      "textures": [
+        "textures/blocks/clover_shrine_top"
+      ]
+    }
+  }
+}

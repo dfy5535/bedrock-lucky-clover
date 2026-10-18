@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:guardian_emblem",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "lucky_guardian_emblem"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.lucky:guardian_emblem.name"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:glint": true
+    }
+  }
+}

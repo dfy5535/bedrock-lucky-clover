@@ -1,0 +1,70 @@
+{
+  "format_version": "1.10.0",
+  "particle_effect": {
+    "description": {
+      "identifier": "lucky:destiny_star_pulse",
+      "basic_render_parameters": {
+        "material": "particles_alpha",
+        "texture": "textures/particles/lucky_particles"
+      }
+    },
+    "components": {
+      "minecraft:emitter_rate_steady": {
+        "spawn_rate": 30,
+        "max_particles": 36
+      },
+      "minecraft:emitter_lifetime_once": {
+        "active_time": 0.65
+      },
+      "minecraft:emitter_shape_disc": {
+        "offset": [
+          0,
+          0.3,
+          0
+        ],
+        "radius": 1.2,
+        "surface_only": false,
+        "direction": "outwards"
+      },
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": 1.0
+      },
+      "minecraft:particle_initial_speed": 2.6,
+      "minecraft:particle_motion_dynamic": {
+        "linear_acceleration": [
+          0,
+          0.8,
+          0
+        ],
+        "linear_drag_coefficient": 1.5
+      },
+      "minecraft:particle_appearance_billboard": {
+        "size": [
+          0.22,
+          0.22
+        ],
+        "facing_camera_mode": "lookat_xyz",
+        "uv": {
+          "texture_width": 64,
+          "texture_height": 16,
+          "uv": [
+            48,
+            0
+          ],
+          "uv_size": [
+            16,
+            16
+          ]
+        }
+      },
+      "minecraft:particle_appearance_tinting": {
+        "color": [
+          0.82,
+          0.48,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  }
+}

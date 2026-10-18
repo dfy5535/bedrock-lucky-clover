@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "lucky:destiny_scythe",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/weapons/destiny_scythe",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.lucky_destiny_scythe"
+      },
+      "animations": {
+        "first_person": "animation.lucky_weapon.first_person_hold",
+        "third_person": "animation.lucky_weapon.third_person_hold",
+        "idle_pulse": "animation.lucky_weapon.idle_scythe"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "first_person": "c.is_first_person"
+          },
+          {
+            "third_person": "!c.is_first_person"
+          },
+          "idle_pulse"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}

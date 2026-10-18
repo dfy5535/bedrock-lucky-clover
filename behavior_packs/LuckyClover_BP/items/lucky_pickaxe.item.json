@@ -1,0 +1,58 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:lucky_pickaxe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.pickaxe"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "lucky_lucky_pickaxe"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.lucky:lucky_pickaxe.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 680
+      },
+      "minecraft:damage": {
+        "value": 5
+      },
+      "minecraft:enchantable": {
+        "slot": "pickaxe",
+        "value": 18
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('stone', 'metal', 'diamond_pick_diggable', 'iron_pick_diggable', 'stone_pick_diggable', 'minecraft:is_pickaxe_item_destructible')"
+            },
+            "speed": 8
+          }
+        ]
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 0.6,
+        "movement_modifier": 0.85
+      },
+      "minecraft:use_animation": "bow",
+      "minecraft:cooldown": {
+        "category": "lucky_pickaxe_echo",
+        "duration": 20.0
+      },
+      "minecraft:interact_button": "action.interact.lucky_pickaxe",
+      "minecraft:custom_components": [
+        "lucky:pickaxe_use"
+      ]
+    }
+  }
+}

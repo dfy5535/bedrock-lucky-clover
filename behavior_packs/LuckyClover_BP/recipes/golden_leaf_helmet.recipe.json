@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lucky:golden_leaf_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "GGG",
+      "CEC"
+    ],
+    "key": {
+      "G": "lucky:golden_dew",
+      "C": "lucky:golden_clover",
+      "E": "lucky:nature_essence"
+    },
+    "result": {
+      "item": "lucky:golden_leaf_helmet",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "lucky:golden_dew"
+      }
+    ]
+  }
+}

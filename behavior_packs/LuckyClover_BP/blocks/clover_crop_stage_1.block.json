@@ -1,0 +1,58 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "lucky:clover_crop_stage_1",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.flower",
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.lucky_plant_stage_1",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "lucky_clover_crop_stage_1",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          10,
+          12
+        ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:loot": "loot_tables/blocks/clover_crop_stage_1.json",
+      "minecraft:map_color": "#38A848",
+      "minecraft:custom_components": [
+        "lucky:plant_behavior",
+        "lucky:crop_tick"
+      ],
+      "minecraft:tick": {
+        "interval_range": [
+          240,
+          480
+        ],
+        "looping": true
+      }
+    }
+  }
+}
